@@ -47,7 +47,7 @@ class Calculator {
 	}
 
 	private function _isValidOperator($operator) {
-		return $operator === '+' || $operator === '-' || $operator === '*' || $operator === '/' || $operator === '%'
+		return $operator === '+' || $operator === '-' || $operator === '*' || $operator === '/' || $operator === '%';
 	}
 
 	private function _compute($operator) {
